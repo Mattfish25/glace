@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glacé - The Cold Glow</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: white;
+      color: #111;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 20px 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      letter-spacing: 4px;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 16px;
+      color: #777;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .hero img {
+      max-width: 250px;
+      filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .buy-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .buy-button {
+      display: inline-block;
+      padding: 14px 30px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #111;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: background-color 0.3s;
+    }
+
+    .buy-button:hover {
+      background-color: #444;
+    }
+
+    .details {
+      max-width: 600px;
+      margin: 40px auto;
+      text-align: center;
+      font-size: 14px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      padding: 40px 10px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Glacé</h1>
+    <p class="tagline">The Cold Glow.</p>
+  </header>
+
+  <section class="hero">
+    <img src="https://i.ibb.co/sHbJhHt/ice-roller-clean.png" alt="Ice Roller" />
+  </section>
+
+  <section class="buy-section">
+    <a href="#" class="buy-button">Buy Now</a>
+  </section>
+
+  <section class="details">
+    <p>
+      Glacé is the premium ice roller crafted for glow-seekers who want more than just skincare.
+      Chill, de-puff, and elevate your daily ritual with the coldest tool in beauty.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Glacé. All rights reserved.
+  </footer>
+</body>
+</html>
